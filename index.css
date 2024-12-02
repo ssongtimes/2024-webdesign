@@ -1,0 +1,276 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background: #422800;
+}
+
+.bg {
+  background: #ffeed8;
+  width: 1279px;
+}
+
+.page-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 1280px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.logo-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo-wrapper h2 {
+  font-size: 1.9rem;
+  margin-top: 0.5rem;
+  color: rgb(59, 27, 0);
+}
+
+.logo {
+  width: 7rem;
+}
+
+/* 카카오나무 이미지 (메인페이지 배경) */
+.main-bg {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url(./src/img/main-bg.png);
+  width: 1280px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-bg h2 {
+  font-size: 7.8rem;
+  margin: 0;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #3a2200;
+}
+
+.main-bg h3 {
+  color: #352000;
+  font-size: 1.3rem;
+  margin-top: 0.3rem;
+}
+
+.main-nav {
+  display: flex;
+  margin-left: 28rem;
+  margin-top: 0.5rem;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.main-nav li {
+  margin: 0 2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.main-nav a {
+  color: #2b1a00;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  margin-left: 0.5rem;
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 5px 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.info-link:hover {
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.footer {
+  position: relative;
+  width: 1281px;
+  height: 300px;
+  background-image: url("/src/img/footer-img.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.footer-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+}
+
+.footer-content h3 {
+  color: black;
+  font-size: 1.55rem;
+  margin-top: 1rem;
+}
+
+.footer-content p {
+  font-size: 0.8rem;
+}
+
+/* FUTURE
+----------------- */
+
+#future .page-title {
+  color: #422800;
+  text-align: center;
+  font-size: 4.5rem;
+  margin-top: 0;
+  padding-top: 5.5rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.future-contents {
+  display: flex;
+  justify-content: space-between;
+}
+
+.future-bg {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("./src/img/main-bg.png");
+  background-size: covor;
+  background-position: center;
+  height: 18rem;
+}
+
+article {
+  width: 65%;
+  margin-left: 9rem;
+}
+
+article h2 {
+  margin-top: 5rem;
+}
+
+html {
+  scroll-behavior: smooth; /* 부드러운 스크롤 */
+}
+
+aside {
+  width: 20%;
+  height: 35%;
+  margin-top: 3rem;
+  position: sticky;
+  top: 5rem;
+  left: auto;
+  padding: 1rem;
+  background: #fff5e6;
+  border: 1px solid #c4a484;
+  border-radius: 8px;
+}
+
+.sub-title {
+  padding-bottom: 0.5rem;
+  padding-left: 0.25rem;
+  margin-bottom: 0.1rem;
+  border-bottom: 2px solid #4b2d00;
+  color: #4e2f00;
+  font-weight: bold;
+  width: 13rem;
+}
+
+.sub-menu {
+  list-style: none;
+  padding: 0;
+}
+
+.sub-menu li {
+  border-bottom: 1px solid #524439;
+  padding-left: 0.4rem;
+  padding-bottom: 0.4rem;
+  margin-top: -0.4rem;
+  margin-bottom: 1rem;
+  width: 13rem;
+}
+
+.sub-menu a {
+  display: block;
+  color: #855000;
+  margin-left: 0;
+}
+
+/* NEWS */
+#news .page-title {
+  color: #422800;
+  text-align: center;
+  font-size: 4.5rem;
+  margin-top: 0;
+  padding-top: 5.5rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid {
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 3rem;
+}
+
+.item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.link {
+  color: rgb(78, 78, 78);
+}
