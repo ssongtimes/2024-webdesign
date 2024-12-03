@@ -55,7 +55,7 @@ body {
       rgba(255, 255, 255, 0.5)
     ),
     url(./src/img/main-bg.png);
-  width: 1280px;
+  width: 1279px;
   height: 500px;
   display: flex;
   justify-content: center;
@@ -154,7 +154,7 @@ body {
 .footer-content h3 {
   color: rgb(58, 58, 58);
   font-size: 1.44rem;
-  margin-top: 0rem;
+  margin-top: -2rem;
   margin-bottom: 0.8rem;
 }
 
