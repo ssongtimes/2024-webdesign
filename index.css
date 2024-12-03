@@ -135,7 +135,7 @@ body {
 /* Footer 스타일 */
 .footer {
   position: relative;
-  width: 1281px;
+  width: 1280px;
   height: 300px;
   background-image: url("/2024-webdesign/src/img/footer-img.png");
   background-size: cover;
@@ -152,13 +152,15 @@ body {
 }
 
 .footer-content h3 {
-  color: black;
-  font-size: 1.55rem;
-  margin-top: 1rem;
+  color: rgb(58, 58, 58);
+  font-size: 1.44rem;
+  margin-top: 0rem;
+  margin-bottom: 0.8rem;
 }
 
 .footer-content p {
-  font-size: 0.8rem;
+  color: rgb(58, 58, 58);
+  font-size: 0.7rem;
 }
 
 /* NEWS page 스타일*/
