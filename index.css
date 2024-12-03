@@ -156,7 +156,7 @@ body {
 /* FUTURE
 ----------------- */
 
-#future .page-title {
+.page-title {
   color: #422800;
   text-align: center;
   font-size: 4.5rem;
@@ -273,4 +273,64 @@ aside {
 
 .link {
   color: rgb(78, 78, 78);
+}
+
+/* CONTACT */
+.map-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+.map-wrapper h3,
+p {
+  margin: 0;
+}
+
+.map-wrapper h2 {
+  color: #523100;
+  font-size: 2rem;
+}
+
+.divider {
+  border: 1.5px solid rgb(146, 77, 13);
+  width: 55rem;
+  margin-top: 3rem;
+}
+
+.label-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-wrapper label {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #3a2200;
+  margin-top: 1rem;
+}
+
+.label-wrapper input,
+textarea {
+  background: #ffe5ca;
+  border: 2px solid rgb(75, 34, 0);
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  padding: 0.4rem;
+  width: 15rem;
+  color: #2b1a00;
+}
+
+.button {
+  width: 16rem;
+  margin-top: 0.6rem;
+  background: #834a00;
+  padding: 0.3rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: 2px solid rgb(104, 59, 0);
+  border-radius: 0.3rem;
+  color: #ffddaa;
 }
